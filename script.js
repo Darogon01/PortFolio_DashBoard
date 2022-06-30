@@ -13,7 +13,7 @@ $(document).ready(function(){
     $('#menu').removeClass('fa-times');
     $('header').removeClass('toggle');
 
-    if($(window).scrollTop() > 0){
+    if($(window).scrollTop() > 100){
       $('.top').show();
     }else{
       $('.top').hide();
